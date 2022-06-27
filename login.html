@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en" class="" style="height: auto;">
+ 
+<!-- Mirrored from localhost/mvogms/login.php by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 26 Jun 2022 21:38:45 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+  <style>
+    :root{
+      --bg-img:url('uploads/cover-1644367404.png');
+    }
+  </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  	<title>Multi-Vendor Online Grocery Management System</title>
+    <link rel="icon" href="uploads/logo-1644367440.png" />
+    <!-- Google Font: Source Sans Pro -->
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&amp;display=fallback"> -->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+    <!-- Ionicons -->
+    <!-- <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"> -->
+    <!-- Tempusdominus Bootstrap 4 -->
+    <link rel="stylesheet" href="plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+      <!-- DataTables -->
+  <link rel="stylesheet" href="plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
+  <link rel="stylesheet" href="plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
+  <link rel="stylesheet" href="plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
+   <!-- Select2 -->
+  <link rel="stylesheet" href="plugins/select2/css/select2.min.css">
+  <link rel="stylesheet" href="plugins/select2-bootstrap4-theme/select2-bootstrap4.min.css">
+    <!-- iCheck -->
+    <link rel="stylesheet" href="plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+    <!-- JQVMap -->
+    <link rel="stylesheet" href="plugins/jqvmap/jqvmap.min.css">
+    <!-- fullCalendar -->
+    <link rel="stylesheet" href="plugins/fullcalendar/main.css">
+    <!-- overlayScrollbars -->
+    <link rel="stylesheet" href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+    <!-- Daterange picker -->
+    <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
+    <!-- summernote -->
+    <link rel="stylesheet" href="plugins/summernote/summernote-bs4.min.css">
+     <!-- SweetAlert2 -->
+  <link rel="stylesheet" href="plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.min.css">
+    <style type="text/css">/* Chart.js */
+      @keyframes chartjs-render-animation{from{opacity:.99}to{opacity:1}}.chartjs-render-monitor{animation:chartjs-render-animation 1ms}.chartjs-size-monitor,.chartjs-size-monitor-expand,.chartjs-size-monitor-shrink{position:absolute;direction:ltr;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1}.chartjs-size-monitor-expand>div{position:absolute;width:1000000px;height:1000000px;left:0;top:0}.chartjs-size-monitor-shrink>div{position:absolute;width:200%;height:200%;left:0;top:0}
+    </style>
+
+    <!-- Theme style -->
+    <link rel="stylesheet" href="dist/css/adminlte.css">
+    <link rel="stylesheet" href="dist/css/custom.css">
+     <!-- jQuery -->
+    <script src="plugins/jquery/jquery.min.js"></script>
+    <!-- jQuery UI 1.11.4 -->
+    <script src="plugins/jquery-ui/jquery-ui.min.js"></script>
+    <!-- SweetAlert2 -->
+    <script src="plugins/sweetalert2/sweetalert2.min.js"></script>
+    <!-- Toastr -->
+    <script src="plugins/toastr/toastr.min.js"></script>
+    <script>
+        var _base_url_ = 'index.html';
+    </script>
+    <script src="dist/js/script.js"></script>
+    <style>
+    #main-header{
+        position:relative;
+        background: rgb(0,0,0)!important;
+        background: radial-gradient(circle, rgba(0,0,0,0.48503151260504207) 22%, rgba(0,0,0,0.39539565826330536) 49%, rgba(0,212,255,0) 100%)!important;
+    }
+    #main-header:before{
+        content:"";
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        background-image:url(uploads/cover-1644367404.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: drop-shadow(0px 7px 6px black);
+        z-index:-1;
+    }
+
+ </style>
+  </head><body class="hold-transition login-page">
+  <script>
+    start_loader()
+  </script>
+  <style>
+      body{
+          width:calc(100%);
+          height:calc(100%);
+          background-image:url('uploads/cover-1644367404.png');
+          background-repeat: no-repeat;
+          background-size:cover;
+      }
+      #logo-img{
+          width:15em;
+          height:15em;
+          object-fit:scale-down;
+          object-position:center center;
+      }
+      #system_name{
+        color:#fff;
+        text-shadow: 3px 3px 3px #000;
+      }
+  </style>
+     <center><img src="uploads/logo-1644367440.png" alt="System Logo" class="img-thumbnail rounded-circle" id="logo-img"></center>
+<h1 class="text-center" id="system_name">Multi-Vendor Online Grocery Management System</h1>
+  <div class="clear-fix my-2"></div>
+<div class="login-box">
+
+  <!-- /.login-logo -->
+  <div class="card card-outline card-primary">
+    <div class="card-header text-center">
+      <a href="login.html" class="h1 text-decoration-none"><b>Client Login</b></a>
+    </div>
+    <div class="card-body">
+      <p class="login-box-msg">Sign in to start your session</p>
+
+      <form id="cclogin-frm" action="#" method="post">
+        <div class="input-group mb-3">
+          <input type="email" class="form-control" name="email" autofocus placeholder="Email">
+          <div class="input-group-append">
+            <div class="input-group-text">
+              <span class="fas fa-user"></span>
+            </div>
+          </div>
+        </div>
+        <div class="input-group mb-3">
+          <input type="password" class="form-control" name="password" placeholder="Password">
+          <div class="input-group-append">
+            <div class="input-group-text">
+              <span class="fas fa-lock"></span>
+            </div>
+          </div>
+        </div>
+        <div class="row align-item-end">
+          <div class="col-8">
+            <a href="index.html">Back to Site</a>
+          </div>
+          <!-- /.col -->
+          <div class="col-4">
+            <button type="submit" class="btn btn-primary btn-block btn-flat">Sign In</button>
+          </div>
+          <div class="col-12 text-center">
+          <a href="register.html">Create an Account</a>
+          </div>
+          <!-- /.col -->
+        </div>
+      </form>
+      <!-- /.social-auth-links -->
+
+      <!-- <p class="mb-1">
+        <a href="forgot-password.html">I forgot my password</a>
+      </p> -->
+      
+    </div>
+    <!-- /.card-body -->
+  </div>
+  <!-- /.card -->
+</div>
+<!-- /.login-box -->
+
+<!-- jQuery -->
+<script src="plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/adminlte.min.js"></script>
+
+<script>
+  $(function(){
+    end_loader();
+    $('#cclogin-frm').submit(function(e){
+        e.preventDefault();
+        var _this = $(this)
+            $('.err-msg').remove();
+        var el = $('<div>')
+            el.addClass("alert err-msg")
+            el.hide()
+        if(_this[0].checkValidity() == false){
+            _this[0].reportValidity();
+            return false;
+            }
+        start_loader();
+        $.ajax({
+            url:_base_url_+"classes/Login.php?f=login_client",
+            data: new FormData($(this)[0]),
+            cache: false,
+            contentType: false,
+            processData: false,
+            method: 'POST',
+            type: 'POST',
+            dataType: 'json',
+            error:err=>{
+                console.error(err)
+                el.addClass('alert-danger').text("An error occured");
+                _this.prepend(el)
+                el.show('.modal')
+                end_loader();
+            },
+            success:function(resp){
+                if(typeof resp =='object' && resp.status == 'success'){
+                    location.href= 'index.html';
+                }else if(resp.status == 'failed' && !!resp.msg){
+                    el.addClass('alert-danger').text(resp.msg);
+                    _this.prepend(el)
+                    el.show('.modal')
+                }else{
+                    el.text("An error occured");
+                    console.error(resp)
+                }
+                $("html, body").scrollTop(0);
+                end_loader()
+
+            }
+        })
+    })
+  })
+</script>
+</body>
+
+<!-- Mirrored from localhost/mvogms/login.php by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 26 Jun 2022 21:38:46 GMT -->
+</html>
